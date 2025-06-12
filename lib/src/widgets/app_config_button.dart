@@ -126,25 +126,6 @@ void showAppConfigBottomSheet({
                                 ),
                               ),
                               const SizedBox(height: 16),
-                              Text(
-                                'Debug Mode:',
-                                style: TextStyle(
-                                  fontSize: 16,
-                                  color: Colors.grey[700],
-                                ),
-                              ),
-                              const SizedBox(height: 4),
-                              Text(
-                                configManager
-                                    .config
-                                    .currentConfig
-                                    .additionalConfig['debugMode']
-                                    .toString(),
-                                style: const TextStyle(
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.w500,
-                                ),
-                              ),
                             ],
                           ),
                         ),

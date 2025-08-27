@@ -8,7 +8,7 @@ class AppConfig {
   AppConfig({
     required this.uat,
     required this.prod,
-    this.currentEnvironment = 'uat',
+    this.currentEnvironment = 'prod',
   });
 
   EnvironmentConfig get currentConfig =>
